@@ -19,7 +19,7 @@ export default class Tendermint implements IRuntime {
 
   async getDataItem(_: Validator, key: string): Promise<DataItem> {
     // IMPLEMENT
-    return null;
+    return {} as DataItem;
   }
 
   async prevalidateDataItem(_: Validator, item: DataItem): Promise<boolean> {
@@ -29,7 +29,7 @@ export default class Tendermint implements IRuntime {
 
   async transformDataItem(_: Validator, item: DataItem): Promise<DataItem> {
     // IMPLEMENT
-    return null;
+    return {} as DataItem;
   }
 
   async validateDataItem(
