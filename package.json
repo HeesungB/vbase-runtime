@@ -1,5 +1,5 @@
 {
-  "name": "@<your_fork>/<your_runtime>",
+  "name": "@your_fork/your_runtime",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
